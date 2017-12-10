@@ -1,0 +1,10 @@
+prefix=/usr/local
+libdir=/data/workspace/sdc/term2/CarND-MPC-Project/Ipopt-3.12.7/Ipopt/src/Interfaces
+
+Name: IPOPT
+Description: Interior Point Optimizer
+URL: https://projects.coin-or.org/Ipopt
+Version: 3.12.7
+Libs: ${libdir}/libipopt.la /usr/local/lib/libcoinlapack.a /usr/local/lib/libcoinblas.a -lgfortran  -L/usr/lib/gcc/x86_64-redhat-linux/7 -L/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/7/../../.. -lgfortran -lm -lquadmath /usr/local/lib/libcoinblas.a -lgfortran  -L/usr/lib/gcc/x86_64-redhat-linux/7 -L/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/7/../../.. -lgfortran -lm -lquadmath -lm  -ldl
+Cflags: -I/data/workspace/sdc/term2/CarND-MPC-Project/Ipopt-3.12.7/Ipopt/src/Interfaces -I/data/workspace/sdc/term2/CarND-MPC-Project/Ipopt-3.12.7/Ipopt/src/Common -I/data/workspace/sdc/term2/CarND-MPC-Project/Ipopt-3.12.7/Ipopt/src/LinAlg -I/data/workspace/sdc/term2/CarND-MPC-Project/Ipopt-3.12.7/Ipopt/src/Algorithm -I/data/workspace/sdc/term2/CarND-MPC-Project/Ipopt-3.12.7/Ipopt/src/contrib/CGPenalty -I/data/workspace/sdc/term2/CarND-MPC-Project/Ipopt-3.12.7/Ipopt/src/contrib/LinearSolverLoader -I/data/workspace/sdc/term2/CarND-MPC-Project/Ipopt-3.12.7/Ipopt/src/Common
+Requires: coinmumps 
